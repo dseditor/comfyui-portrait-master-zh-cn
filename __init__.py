@@ -227,7 +227,7 @@ class PortraitMaster_中文版:
                     "step": 0.05,
                     "display": "slider",
                 }),
-                "胡子": (beard_list, {
+                "鬍子": (beard_list, {
                     "default": beard_list[0],
                 }),
                 "皮膚細節": ("FLOAT", {
