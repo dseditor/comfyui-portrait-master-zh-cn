@@ -1,42 +1,42 @@
 [
     {
-        "name": "自然阳光",
+        "name": "自然陽光",
         "prompt": "Natural sunlight"
     },
     {
-        "name": "柔和环境光",
+        "name": "柔和環境光",
         "prompt": "Soft ambient light"
     },
     {
-        "name": "强烈阳光",
+        "name": "強烈陽光",
         "prompt": "Harsh sunlight"
     },
     {
-        "name": "阴天",
+        "name": "陰天",
         "prompt": "Overcast sky"
     },
     {
-        "name": "日落余晖",
+        "name": "日落餘暉",
         "prompt": "Sunset glow"
     },
     {
-        "name": "日出温暖",
+        "name": "日出溫暖",
         "prompt": "Sunrise warmth"
     },
     {
-        "name": "黄昏色彩",
+        "name": "黃昏色彩",
         "prompt": "Twilight hues"
     },
     {
-        "name": "烛光",
+        "name": "燭光",
         "prompt": "Candlelight"
     },
     {
-        "name": "白炽灯光",
+        "name": "白熾燈光",
         "prompt": "Incandescent lighting"
     },
     {
-        "name": "荧光灯光",
+        "name": "熒光燈光",
         "prompt": "Fluorescent lighting"
     },
     {
@@ -44,7 +44,7 @@
         "prompt": "Moonlight"
     },
     {
-        "name": "斑驳阳光",
+        "name": "斑駁陽光",
         "prompt": "Dappled sunlight"
     },
     {
@@ -52,11 +52,11 @@
         "prompt": "Backlit silhouette"
     },
     {
-        "name": "聚光灯",
+        "name": "聚光燈",
         "prompt": "Spotlight"
     },
     {
-        "name": "边缘光",
+        "name": "邊緣光",
         "prompt": "Rim lighting"
     },
     {
@@ -64,23 +64,23 @@
         "prompt": "Firelight"
     },
     {
-        "name": "城市街灯",
+        "name": "城市街燈",
         "prompt": "City streetlights"
     },
     {
-        "name": "摄影棚灯光",
+        "name": "攝影棚燈光",
         "prompt": "Studio lighting"
     },
     {
-        "name": "灯笼光",
+        "name": "燈籠光",
         "prompt": "Lantern light"
     },
     {
-        "name": "钨丝灯光",
+        "name": "鎢絲燈光",
         "prompt": "Tungsten lighting"
     },
     {
-        "name": "阴天漫射光",
+        "name": "陰天漫射光",
         "prompt": "Cloudy day diffused light"
     },
     {
@@ -88,23 +88,23 @@
         "prompt": "Skylight"
     },
     {
-        "name": "黄金时刻光线",
+        "name": "黃金時刻光線",
         "prompt": "Golden hour light"
     },
     {
-        "name": "蓝色时刻光线",
+        "name": "藍色時刻光線",
         "prompt": "Blue hour light"
     },
     {
-        "name": "闪光摄影",
+        "name": "閃光攝影",
         "prompt": "Flash photography"
     },
     {
-        "name": "舞台灯光",
+        "name": "舞台燈光",
         "prompt": "Stage lighting"
     },
     {
-        "name": "霓虹灯",
+        "name": "霓虹燈",
         "prompt": "Neon lights"
     },
     {
@@ -116,11 +116,11 @@
         "prompt": "Softbox lighting"
     },
     {
-        "name": "边缘光",
+        "name": "邊緣光",
         "prompt": "Rim light"
     },
     {
-        "name": "闪电",
+        "name": "閃電",
         "prompt": "Lightning"
     },
     {

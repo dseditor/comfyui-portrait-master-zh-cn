@@ -4,7 +4,7 @@
         "prompt": "Portrait"
     },
     {
-        "name": "头像",
+        "name": "頭像",
         "prompt": "Head portrait"
     },
     {
@@ -24,11 +24,11 @@
         "prompt": "Full body"
     },
     {
-        "name": "脸部肖像",
+        "name": "臉部肖像",
         "prompt": "Face"
     },
     {
-        "name": "特写",
+        "name": "特寫",
         "prompt": "Close-up"
     }
 ]

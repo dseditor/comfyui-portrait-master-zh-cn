@@ -1,6 +1,6 @@
 [
     {
-        "name": "不对称剪裁",
+        "name": "不對稱剪裁",
         "prompt": "Asymmetrical cut"
     },
     {
@@ -8,31 +8,31 @@
         "prompt": "Blunt cut"
     },
     {
-        "name": "波波头",
+        "name": "波波頭",
         "prompt": "Bob cut"
     },
     {
-        "name": "编织波波头",
+        "name": "編織波波頭",
         "prompt": "Braided bob"
     },
     {
-        "name": "寸头",
+        "name": "寸頭",
         "prompt": "Buzz cut"
     },
     {
-        "name": "碎发剪裁",
+        "name": "碎髮剪裁",
         "prompt": "Choppy cut"
     },
     {
-        "name": "卷发波波头",
+        "name": "卷髮波波頭",
         "prompt": "Curly bob"
     },
     {
-        "name": "幕帘刘海",
+        "name": "幕簾劉海",
         "prompt": "Curtain bangs"
     },
     {
-        "name": "飞机头",
+        "name": "飛機頭",
         "prompt": "Faux hawk"
     },
     {
@@ -40,119 +40,119 @@
         "prompt": "Feathered cut"
     },
     {
-        "name": "法式波波头",
+        "name": "法式波波頭",
         "prompt": "French bob"
     },
     {
-        "name": "层次剪裁",
+        "name": "層次剪裁",
         "prompt": "Layered cut"
     },
     {
-        "name": "长波波头",
+        "name": "長波波頭",
         "prompt": "Long bob"
     },
     {
-        "name": "莫霍克发型",
+        "name": "莫霍剋髮型",
         "prompt": "Mohawk"
     },
     {
-        "name": "精灵短发",
+        "name": "精靈短髮",
         "prompt": "Pixie cut"
     },
     {
-        "name": "散乱剪裁",
+        "name": "散亂剪裁",
         "prompt": "Shag cut"
     },
     {
-        "name": "侧扫刘海",
+        "name": "側掃劉海",
         "prompt": "Side-swept bangs"
     },
     {
-        "name": "质感剪裁",
+        "name": "質感剪裁",
         "prompt": "Textured cut"
     },
     {
-        "name": "底层剪裁",
+        "name": "底層剪裁",
         "prompt": "Undercut"
     },
     {
-        "name": "波浪波波头",
+        "name": "波浪波波頭",
         "prompt": "Wavy bob"
     },
     {
-        "name": "飞机头+精灵短发",
+        "name": "飛機頭+精靈短髮",
         "prompt": "Faux hawk short pixie"
     },
     {
-        "name": "短发剃边",
+        "name": "短髮剃邊",
         "prompt": "Brave short haircut with shaved sides"
     },
     {
-        "name": "剃边锥形发型",
+        "name": "剃邊錐形髮型",
         "prompt": "Tapered haircut with shaved side"
     },
     {
-        "name": "层叠波波头",
+        "name": "層疊波波頭",
         "prompt": "Stacked bob"
     },
     {
-        "name": "柠檬辫",
+        "name": "檸檬辮",
         "prompt": "Lemonade braids"
     },
     {
-        "name": "中分马尾",
+        "name": "中分馬尾",
         "prompt": "Middle part ponytails"
     },
     {
-        "name": "编织辫",
+        "name": "編織辮",
         "prompt": "Stitch braids"
     },
     {
-        "name": "深侧分",
+        "name": "深側分",
         "prompt": "Deep side part"
     },
     {
-        "name": "法式辫",
+        "name": "法式辮",
         "prompt": "French braids"
     },
     {
-        "name": "盒子辫",
+        "name": "盒子辮",
         "prompt": "Box braids"
     },
     {
-        "name": "双荷兰辫",
+        "name": "雙荷蘭辮",
         "prompt": "Two dutch braids"
     },
     {
-        "name": "波浪剪裁帘式刘海",
+        "name": "波浪剪裁簾式劉海",
         "prompt": "Wavy cut with curtains bangs"
     },
     {
-        "name": "右侧剃光",
+        "name": "右側剃光",
         "prompt": "Right side shaved"
     },
     {
-        "name": "扫式精灵",
+        "name": "掃式精靈",
         "prompt": "Sweeping pixie"
     },
     {
-        "name": "光滑长波波头",
+        "name": "光滑長波波頭",
         "prompt": "Smooth lob"
     },
     {
-        "name": "长精灵",
+        "name": "長精靈",
         "prompt": "Long pixie"
     },
     {
-        "name": "侧扫精灵",
+        "name": "側掃精靈",
         "prompt": "Sideswept pixie"
     },
     {
-        "name": "意式波波头",
+        "name": "意式波波頭",
         "prompt": "Italian bob"
     },
     {
-        "name": "短长组合",
+        "name": "短長組合",
         "prompt": "Shullet"
     }
 ]

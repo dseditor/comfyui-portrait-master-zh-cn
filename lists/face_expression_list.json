@@ -1,18 +1,18 @@
 [
     {
-        "name": "开心",
+        "name": "開心",
         "prompt": "Happy"
     },
     {
-        "name": "伤心",
+        "name": "傷心",
         "prompt": "Sad"
     },
     {
-        "name": "生气",
+        "name": "生氣",
         "prompt": "Angry"
     },
     {
-        "name": "惊讶",
+        "name": "驚訝",
         "prompt": "Surprised"
     },
     {
@@ -20,23 +20,23 @@
         "prompt": "Fearful"
     },
     {
-        "name": "厌恶",
+        "name": "厭惡",
         "prompt": "Disgusted"
     },
     {
-        "name": "轻蔑",
+        "name": "輕蔑",
         "prompt": "Contemptuous"
     },
     {
-        "name": "兴奋",
+        "name": "興奮",
         "prompt": "Excited"
     },
     {
-        "name": "紧张",
+        "name": "緊張",
         "prompt": "Nervous"
     },
     {
-        "name": "困惑",
+        "name": "睏惑",
         "prompt": "Confused"
     },
     {
@@ -44,7 +44,7 @@
         "prompt": "Amused"
     },
     {
-        "name": "满足",
+        "name": "滿足",
         "prompt": "Content"
     },
     {
@@ -52,15 +52,15 @@
         "prompt": "Disappointed"
     },
     {
-        "name": "无聊",
+        "name": "無聊",
         "prompt": "Bored"
     },
     {
-        "name": "放松",
+        "name": "放鬆",
         "prompt": "Relieved"
     },
     {
-        "name": "恋爱中",
+        "name": "戀愛中",
         "prompt": "In love"
     },
     {
@@ -72,19 +72,19 @@
         "prompt": "Envious"
     },
     {
-        "name": "骄傲",
+        "name": "驕傲",
         "prompt": "Proud"
     },
     {
-        "name": "谨慎",
+        "name": "謹慎",
         "prompt": "Cautious"
     },
     {
-        "name": "严肃",
+        "name": "嚴肅",
         "prompt": "Serious"
     },
     {
-        "name": "平静",
+        "name": "平靜",
         "prompt": "Serene"
     },
     {
@@ -92,7 +92,7 @@
         "prompt": "Peaceful"
     },
     {
-        "name": "冷静",
+        "name": "冷靜",
         "prompt": "Calm"
     }
 ]

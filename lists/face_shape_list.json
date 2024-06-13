@@ -1,10 +1,10 @@
 [
     {
-        "name": "椭圆形",
+        "name": "橢圓形",
         "prompt": "Oval"
     },
     {
-        "name": "圆形",
+        "name": "圓形",
         "prompt": "Round"
     },
     {
@@ -16,11 +16,11 @@
         "prompt": "Heart-shaped"
     },
     {
-        "name": "长形",
+        "name": "長形",
         "prompt": "Long"
     },
     {
-        "name": "长方形",
+        "name": "長方形",
         "prompt": "Rectangle"
     },
     {
@@ -36,15 +36,15 @@
         "prompt": "Pear-shaped"
     },
     {
-        "name": "长椭圆形",
+        "name": "長橢圓形",
         "prompt": "Oblong"
     },
     {
-        "name": "方圆形",
+        "name": "方圓形",
         "prompt": "Square Round"
     },
     {
-        "name": "方椭圆形",
+        "name": "方橢圓形",
         "prompt": "Square Oval"
     }
 ]

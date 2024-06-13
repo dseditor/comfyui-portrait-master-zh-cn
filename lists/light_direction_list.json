@@ -1,42 +1,42 @@
 [
     {
-        "name": "从上方",
+        "name": "從上方",
         "prompt": "from top"
     },
     {
-        "name": "从下方",
+        "name": "從下方",
         "prompt": "from bottom"
     },
     {
-        "name": "从右侧",
+        "name": "從右側",
         "prompt": "from right"
     },
     {
-        "name": "从左侧",
+        "name": "從左側",
         "prompt": "from left"
     },
     {
-        "name": "从前方",
+        "name": "從前方",
         "prompt": "from front"
     },
     {
-        "name": "从后方",
+        "name": "從後方",
         "prompt": "from rear"
     },
     {
-        "name": "从右上方",
+        "name": "從右上方",
         "prompt": "from top-right"
     },
     {
-        "name": "从左上方",
+        "name": "從左上方",
         "prompt": "from top-left"
     },
     {
-        "name": "从右下方",
+        "name": "從右下方",
         "prompt": "from bottom-right"
     },
     {
-        "name": "从左下方",
+        "name": "從左下方",
         "prompt": "from bottom-left"
     }
 ]
