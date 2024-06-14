@@ -1,0 +1,110 @@
+[
+    {
+        "name": "基本髮飾",
+        "prompt": "Hair Accessories"
+    },
+    {
+        "name": "皇冠",
+        "prompt": "Crown"
+    },
+    {
+        "name": "緞帶髮帶",
+        "prompt": "Hair Ribbon"
+    },
+    {
+    "name": "髮帶",
+    "prompt": "Hairband"
+},
+{
+    "name": "綁髮髮帶",
+    "prompt": "Hair Tie"
+},
+{
+    "name": "洛麗塔髮帶",
+    "prompt": "Lolita Hairband"
+},
+{
+    "name": "褶邊髮帶",
+    "prompt": "Frilled Hairband"
+},
+{
+    "name": "蕾絲邊飾髮帶",
+    "prompt": "Lace-trimmed Hairband"
+},
+{
+    "name": "假發髮帶",
+    "prompt": "Wig Hairband"
+},
+{
+    "name": "繞領髮帶",
+    "prompt": "Choker Hairband"
+},
+{
+    "name": "羊毛髮帶",
+    "prompt": "Sheep Wool Hairband"
+},
+{
+    "name": "假絲髮帶",
+    "prompt": "Synthetic Lace Hairband"
+},
+{
+    "name": "皮革髮帶",
+    "prompt": "Leather Hairband"
+},
+{
+    "name": "假緞髮帶",
+    "prompt": "Synthetic Satin Hairband"
+},
+{
+    "name": "網狀髮帶",
+    "prompt": "Netted Hairband"
+},
+{
+    "name": "小頭髮帶",
+    "prompt": "Mini Headband"
+},
+{
+    "name": "花邊髮帶",
+    "prompt": "Floral Hairband"
+},
+{
+    "name": "假珍珠髮帶",
+    "prompt": "Synthetic Pearl Hairband"
+},
+{
+    "name": "綠草髮帶",
+    "prompt": "Green Grass Hairband"
+},
+    {
+        "name": "頭繩",
+        "prompt": "Hair Bobbles"
+    },
+    {
+        "name": "髮飾",
+        "prompt": "Hair Ornament"
+    },
+    {
+        "name": "髮花",
+        "prompt": "Hair Flower"
+    },
+    {
+        "name": "髮夾",
+        "prompt": "Hairclip"
+    },
+    {
+        "name": "髮髻",
+        "prompt": "Hair Bun"
+    },
+    {
+        "name": "髮髻(單)",
+        "prompt": "Single Hair Bun"
+    },
+    {
+        "name": "髮鈴",
+        "prompt": "Hair Bell"
+    },
+    {
+        "name": "髮圈",
+        "prompt": "Hair Rings"
+    }
+]

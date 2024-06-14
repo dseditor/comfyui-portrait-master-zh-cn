@@ -1,0 +1,63 @@
+[
+    {
+        "name": "耳環",
+        "prompt": "Earrings"
+    },
+    {
+        "name": "圈型耳環",
+        "prompt": "Hoop Earrings"
+    },
+    {
+        "name": "耳釘",
+        "prompt": "Stud Earrings"
+    },
+	    {
+        "name": "蝶形耳環",
+        "prompt": "Flower Shape Earrings"
+    },
+    {
+        "name": "镶嵌耳環",
+        "prompt": "Inlaid Earrings"
+    },
+    {
+        "name": "合金耳環",
+        "prompt": "Gold Earrings"
+    },
+    {
+        "name": "翡翠耳環",
+        "prompt": "Amethyst Earrings"
+    },
+    {
+        "name": "寒梅耳環",
+        "prompt": "Jadeite Earrings"
+    },
+    {
+        "name": "框式耳環",
+        "prompt": "Box Shaped Earrings"
+    },
+    {
+        "name": "金紋耳環",
+        "prompt": "Ornate Design Earrings"
+    },
+    {
+        "name": "錦樣耳環",
+        "prompt": "Mirrored Gems Earrings"
+    },
+    {
+        "name": "光晕耳環",
+        "prompt": "Fake Pearls Earrings"
+    },
+    {
+        "name": "蝴蝶耳環",
+        "prompt": "Butterfly Shaped Earrings"
+    },
+	    {
+        "name": "鐵皮耳環",
+        "prompt": "Leather Earring Frames"
+    },
+    {
+        "name": "垂墜耳環",
+        "prompt": "Dangle Earrings"
+    }	
+	
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "name": "無框眼鏡",
+        "prompt": "Frameless Glasses"
+    },
+	    {
+        "name": "圓形眼鏡",
+        "prompt": "Round Glasses"
+    },
+    {
+        "name": "方形眼鏡",
+        "prompt": "Square Glasses"
+    },
+    {
+        "name": "太陽眼鏡",
+        "prompt": "Sunglasses"
+    },
+    {
+        "name": "護目鏡",
+        "prompt": "Goggles"
+    },
+    {
+        "name": "無框眼鏡",
+        "prompt": "Frameless Glasses"
+    },
+    {
+        "name": "三角眼鏡",
+        "prompt": "Triangle Glasses"
+    },
+    {
+        "name": "方形框眼鏡",
+        "prompt": "Rectangle Frame Glasses"
+    },
+    {
+        "name": "圓形框眼鏡",
+        "prompt": "Circle Frame Glasses"
+    },
+    {
+        "name": "梯形眼鏡",
+        "prompt": "Trident Glasses"
+    },
+    {
+        "name": "方形鼻梁眼鏡",
+        "prompt": "Rectangle Nose Bridge Glasses"
+    },
+    {
+        "name": "圓形鼻梁眼鏡",
+        "prompt": "Circle Nose Bridge Glasses"
+    },
+    {
+        "name": "無框鼻梁眼鏡",
+        "prompt": "Frameless Nose Bridge Glasses"
+    },
+    {
+        "name": "三角鼻梁眼鏡",
+        "prompt": "Triangle Nose Bridge Glasses"
+    },
+    {
+        "name": "梯形鼻梁眼鏡",
+        "prompt": "Trident Nose Bridge Glasses"
+    },
+    {
+        "name": "太陽框眼鏡",
+        "prompt": "Sunglasses Frame Glasses"
+    },
+    {
+        "name": "護目框眼鏡",
+        "prompt": "Goggles Frame Glasses"
+    },
+    {
+        "name": "運動眼鏡",
+        "prompt": "Sports Glasses"
+    }
+]

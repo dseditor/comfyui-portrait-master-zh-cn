@@ -4,15 +4,15 @@
         "prompt": "Afghan"
     },
     {
-        "name": "阿尔巴尼亚人",
+        "name": "阿爾巴尼亞人",
         "prompt": "Albanian"
     },
     {
-        "name": "阿尔及利亚人",
+        "name": "阿爾及利亞人",
         "prompt": "Algerian"
     },
     {
-        "name": "安道尔人",
+        "name": "安道爾人",
         "prompt": "Andorran"
     },
     {
@@ -20,7 +20,7 @@
         "prompt": "Angolan"
     },
     {
-        "name": "安提瓜和巴布达人",
+        "name": "安提瓜和巴布達人",
         "prompt": "Antiguans Barbudans"
     },
     {
@@ -28,15 +28,15 @@
         "prompt": "Argentine"
     },
     {
-        "name": "亚美尼亚人",
+        "name": "亞美尼亞人",
         "prompt": "Armenian"
     },
     {
-        "name": "澳大利亚人",
+        "name": "澳大利亞人",
         "prompt": "Australian"
     },
     {
-        "name": "奥地利人",
+        "name": "奧地利人",
         "prompt": "Austrian"
     },
     {
@@ -44,7 +44,7 @@
         "prompt": "Azerbaijani"
     },
     {
-        "name": "巴哈马人",
+        "name": "巴哈馬人",
         "prompt": "Bahamian"
     },
     {
@@ -52,7 +52,7 @@
         "prompt": "Bahraini"
     },
     {
-        "name": "孟加拉国人",
+        "name": "孟加拉國人",
         "prompt": "Bangladeshi"
     },
     {
@@ -60,19 +60,19 @@
         "prompt": "Barbadian"
     },
     {
-        "name": "白俄罗斯人",
+        "name": "白俄羅斯人",
         "prompt": "Belarusian"
     },
     {
-        "name": "比利时人",
+        "name": "比利時人",
         "prompt": "Belgian"
     },
     {
-        "name": "伯利兹人",
+        "name": "伯利茲人",
         "prompt": "Belizean"
     },
     {
-        "name": "贝宁人",
+        "name": "貝寧人",
         "prompt": "Beninese"
     },
     {
@@ -80,11 +80,11 @@
         "prompt": "Bhutanese"
     },
     {
-        "name": "玻利维亚人",
+        "name": "玻利維亞人",
         "prompt": "Bolivian"
     },
     {
-        "name": "波斯尼亚和黑塞哥维那人",
+        "name": "波斯尼亞和黑塞哥維那人",
         "prompt": "Bosnian Herzegovinian"
     },
     {
@@ -92,19 +92,19 @@
         "prompt": "Brazilian"
     },
     {
-        "name": "英国人",
+        "name": "英國人",
         "prompt": "British"
     },
     {
-        "name": "文莱人",
+        "name": "文萊人",
         "prompt": "Bruneian"
     },
     {
-        "name": "保加利亚人",
+        "name": "保加利亞人",
         "prompt": "Bulgarian"
     },
     {
-        "name": "布基纳法索人",
+        "name": "布基納法索人",
         "prompt": "Burkinabe"
     },
     {
@@ -116,7 +116,7 @@
         "prompt": "Cambodian"
     },
     {
-        "name": "喀麦隆人",
+        "name": "喀麥隆人",
         "prompt": "Cameroonian"
     },
     {
@@ -140,27 +140,27 @@
         "prompt": "Chilean"
     },
     {
-        "name": "中国人",
+        "name": "中國人",
         "prompt": "Chinese"
     },
     {
-        "name": "哥伦比亚人",
+        "name": "哥倫比亞人",
         "prompt": "Colombian"
     },
     {
-        "name": "科摩罗人",
+        "name": "科摩羅人",
         "prompt": "Comoran"
     },
     {
-        "name": "刚果人",
+        "name": "剛果人",
         "prompt": "Congolese"
     },
     {
-        "name": "哥斯达黎加人",
+        "name": "哥斯達黎加人",
         "prompt": "Costa Rican"
     },
     {
-        "name": "克罗地亚人",
+        "name": "喀羅地亞人",
         "prompt": "Croatian"
     },
     {
@@ -172,11 +172,11 @@
         "prompt": "Cypriot"
     },
     {
-        "name": "捷克人",
+        "name": "捷喀人",
         "prompt": "Czech"
     },
     {
-        "name": "丹麦人",
+        "name": "丹麥人",
         "prompt": "Danish"
     },
     {
@@ -188,15 +188,15 @@
         "prompt": "Dominican"
     },
     {
-        "name": "荷兰人",
+        "name": "荷蘭人",
         "prompt": "Dutch"
     },
     {
-        "name": "东帝汶人",
+        "name": "東帝汶人",
         "prompt": "East Timorese"
     },
     {
-        "name": "厄瓜多尔人",
+        "name": "厄瓜多爾人",
         "prompt": "Ecuadorean"
     },
     {
@@ -204,39 +204,39 @@
         "prompt": "Egyptian"
     },
     {
-        "name": "阿联酋人",
+        "name": "阿聯酋人",
         "prompt": "Emirian"
     },
     {
-        "name": "赤道几内亚人",
+        "name": "赤道幾內亞人",
         "prompt": "Equatorial Guinean"
     },
     {
-        "name": "厄立特里亚人",
+        "name": "厄立特裡亞人",
         "prompt": "Eritrean"
     },
     {
-        "name": "爱沙尼亚人",
+        "name": "愛沙尼亞人",
         "prompt": "Estonian"
     },
     {
-        "name": "埃塞俄比亚人",
+        "name": "埃塞俄比亞人",
         "prompt": "Ethiopian"
     },
     {
-        "name": "斐济人",
+        "name": "斐濟人",
         "prompt": "Fijian"
     },
     {
-        "name": "菲律宾人",
+        "name": "菲律賓人",
         "prompt": "Filipino"
     },
     {
-        "name": "芬兰人",
+        "name": "芬蘭人",
         "prompt": "Finnish"
     },
     {
-        "name": "法国人",
+        "name": "法國人",
         "prompt": "French"
     },
     {
@@ -244,39 +244,39 @@
         "prompt": "Gabonese"
     },
     {
-        "name": "冈比亚人",
+        "name": "岡比亞人",
         "prompt": "Gambian"
     },
     {
-        "name": "格鲁吉亚人",
+        "name": "格魯吉亞人",
         "prompt": "Georgian"
     },
     {
-        "name": "德国人",
+        "name": "德國人",
         "prompt": "German"
     },
     {
-        "name": "加纳人",
+        "name": "加納人",
         "prompt": "Ghanaian"
     },
     {
-        "name": "希腊人",
+        "name": "希臘人",
         "prompt": "Greek"
     },
     {
-        "name": "格林纳达人",
+        "name": "格林納達人",
         "prompt": "Grenadian"
     },
     {
-        "name": "危地马拉人",
+        "name": "危地馬拉人",
         "prompt": "Guatemalan"
     },
     {
-        "name": "几内亚人",
+        "name": "幾內亞人",
         "prompt": "Guinean"
     },
     {
-        "name": "圭亚那人",
+        "name": "圭亞那人",
         "prompt": "Guyanese"
     },
     {
@@ -284,7 +284,7 @@
         "prompt": "Haitian"
     },
     {
-        "name": "黑塞哥维那人",
+        "name": "黑塞哥維那人",
         "prompt": "Herzegovinian"
     },
     {
@@ -296,7 +296,7 @@
         "prompt": "Hungarian"
     },
     {
-        "name": "冰岛人",
+        "name": "冰島人",
         "prompt": "Icelander"
     },
     {
@@ -304,7 +304,7 @@
         "prompt": "Indian"
     },
     {
-        "name": "印度尼西亚人",
+        "name": "印度尼西亞人",
         "prompt": "Indonesian"
     },
     {
@@ -312,11 +312,11 @@
         "prompt": "Iranian"
     },
     {
-        "name": "伊拉克人",
+        "name": "伊拉喀人",
         "prompt": "Iraqi"
     },
     {
-        "name": "爱尔兰人",
+        "name": "愛爾蘭人",
         "prompt": "Irish"
     },
     {
@@ -332,7 +332,7 @@
         "prompt": "Ivorian"
     },
     {
-        "name": "牙买加人",
+        "name": "牙買加人",
         "prompt": "Jamaican"
     },
     {
@@ -340,27 +340,27 @@
         "prompt": "Japanese"
     },
     {
-        "name": "约旦人",
+        "name": "約旦人",
         "prompt": "Jordanian"
     },
     {
-        "name": "哈萨克斯坦人",
+        "name": "哈薩喀斯坦人",
         "prompt": "Kazakhstani"
     },
     {
-        "name": "肯尼亚人",
+        "name": "肯尼亞人",
         "prompt": "Kenyan"
     },
     {
-        "name": "基里巴斯人",
+        "name": "基裡巴斯人",
         "prompt": "Kiribati"
     },
     {
-        "name": "朝鲜人",
+        "name": "朝鮮人",
         "prompt": "North Korean"
     },
     {
-        "name": "韩国人",
+        "name": "韓國人",
         "prompt": "South Korean"
     },
     {
@@ -368,15 +368,15 @@
         "prompt": "Kuwaiti"
     },
     {
-        "name": "吉尔吉斯斯坦人",
+        "name": "吉爾吉斯斯坦人",
         "prompt": "Kyrgyz"
     },
     {
-        "name": "老挝人",
+        "name": "老撾人",
         "prompt": "Laotian"
     },
     {
-        "name": "拉脱维亚人",
+        "name": "拉脫維亞人",
         "prompt": "Latvian"
     },
     {
@@ -384,11 +384,11 @@
         "prompt": "Lebanese"
     },
     {
-        "name": "利比里亚人",
+        "name": "利比裡亞人",
         "prompt": "Liberian"
     },
     {
-        "name": "利比亚人",
+        "name": "利比亞人",
         "prompt": "Libyan"
     },
     {
@@ -400,47 +400,47 @@
         "prompt": "Lithuanian"
     },
     {
-        "name": "卢森堡人",
+        "name": "盧森堡人",
         "prompt": "Luxembourgish"
     },
     {
-        "name": "马其顿人",
+        "name": "馬其頓人",
         "prompt": "Macedonian"
     },
     {
-        "name": "马达加斯加人",
+        "name": "馬達加斯加人",
         "prompt": "Malagasy"
     },
     {
-        "name": "马拉维人",
+        "name": "馬拉維人",
         "prompt": "Malawian"
     },
     {
-        "name": "马来西亚人",
+        "name": "馬來西亞人",
         "prompt": "Malaysian"
     },
     {
-        "name": "马尔代夫人",
+        "name": "馬爾代夫人",
         "prompt": "Maldivan"
     },
     {
-        "name": "马里人",
+        "name": "馬裡人",
         "prompt": "Malian"
     },
     {
-        "name": "马耳他人",
+        "name": "馬耳他人",
         "prompt": "Maltese"
     },
     {
-        "name": "马绍尔群岛人",
+        "name": "馬紹爾群島人",
         "prompt": "Marshallese"
     },
     {
-        "name": "毛里塔尼亚人",
+        "name": "毛裡塔尼亞人",
         "prompt": "Mauritanian"
     },
     {
-        "name": "毛里求斯人",
+        "name": "毛裡求斯人",
         "prompt": "Mauritian"
     },
     {
@@ -448,15 +448,15 @@
         "prompt": "Mexican"
     },
     {
-        "name": "密克罗尼西亚人",
+        "name": "密喀羅尼西亞人",
         "prompt": "Micronesian"
     },
     {
-        "name": "摩尔多瓦人",
+        "name": "摩爾多瓦人",
         "prompt": "Moldovan"
     },
     {
-        "name": "摩纳哥人",
+        "name": "摩納哥人",
         "prompt": "Monegasque"
     },
     {
@@ -472,35 +472,35 @@
         "prompt": "Moroccan"
     },
     {
-        "name": "莫桑比克人",
+        "name": "莫桑比喀人",
         "prompt": "Mosotho"
     },
     {
-        "name": "博茨瓦纳人",
+        "name": "博茨瓦納人",
         "prompt": "Motswana"
     },
     {
-        "name": "莫桑比克人",
+        "name": "莫桑比喀人",
         "prompt": "Mozambican"
     },
     {
-        "name": "纳米比亚人",
+        "name": "納米比亞人",
         "prompt": "Namibian"
     },
     {
-        "name": "瑙鲁人",
+        "name": "瑙魯人",
         "prompt": "Nauruan"
     },
     {
-        "name": "尼泊尔人",
+        "name": "尼泊爾人",
         "prompt": "Nepalese"
     },
     {
-        "name": "新西兰人",
+        "name": "新西蘭人",
         "prompt": "New Zealander"
     },
     {
-        "name": "瓦努阿图人",
+        "name": "瓦努阿圖人",
         "prompt": "Ni-Vanuatu"
     },
     {
@@ -508,19 +508,19 @@
         "prompt": "Nicaraguan"
     },
     {
-        "name": "尼日利亚人",
+        "name": "尼日利亞人",
         "prompt": "Nigerian"
     },
     {
-        "name": "尼日尔人",
+        "name": "尼日爾人",
         "prompt": "Nigerien"
     },
     {
-        "name": "朝鲜人",
+        "name": "朝鮮人",
         "prompt": "North Korean"
     },
     {
-        "name": "北爱尔兰人",
+        "name": "北愛爾蘭人",
         "prompt": "Northern Irish"
     },
     {
@@ -536,7 +536,7 @@
         "prompt": "Pakistani"
     },
     {
-        "name": "帕劳人",
+        "name": "帕勞人",
         "prompt": "Palauan"
     },
     {
@@ -544,11 +544,11 @@
         "prompt": "Palestinian"
     },
     {
-        "name": "巴拿马人",
+        "name": "巴拿馬人",
         "prompt": "Panamanian"
     },
     {
-        "name": "巴布亚新几内亚人",
+        "name": "巴布亞新幾內亞人",
         "prompt": "Papua New Guinean"
     },
     {
@@ -556,11 +556,11 @@
         "prompt": "Paraguayan"
     },
     {
-        "name": "秘鲁人",
+        "name": "秘魯人",
         "prompt": "Peruvian"
     },
     {
-        "name": "波兰人",
+        "name": "波蘭人",
         "prompt": "Polish"
     },
     {
@@ -568,39 +568,39 @@
         "prompt": "Portuguese"
     },
     {
-        "name": "卡塔尔人",
+        "name": "卡塔爾人",
         "prompt": "Qatari"
     },
     {
-        "name": "罗马尼亚人",
+        "name": "羅馬尼亞人",
         "prompt": "Romanian"
     },
     {
-        "name": "俄罗斯人",
+        "name": "俄羅斯人",
         "prompt": "Russian"
     },
     {
-        "name": "卢旺达人",
+        "name": "盧旺達人",
         "prompt": "Rwandan"
     },
     {
-        "name": "圣卢西亚人",
+        "name": "聖盧西亞人",
         "prompt": "Saint Lucian"
     },
     {
-        "name": "萨尔瓦多人",
+        "name": "薩爾瓦多人",
         "prompt": "Salvadoran"
     },
     {
-        "name": "萨摩亚人",
+        "name": "薩摩亞人",
         "prompt": "Samoan"
     },
     {
-        "name": "圣马力诺人",
+        "name": "聖馬力諾人",
         "prompt": "San Marinese"
     },
     {
-        "name": "圣多美和普林西比人",
+        "name": "聖多美和普林西比人",
         "prompt": "Sao Tomean"
     },
     {
@@ -608,19 +608,19 @@
         "prompt": "Saudi"
     },
     {
-        "name": "苏格兰人",
+        "name": "蘇格蘭人",
         "prompt": "Scottish"
     },
     {
-        "name": "塞内加尔人",
+        "name": "塞內加爾人",
         "prompt": "Senegalese"
     },
     {
-        "name": "塞尔维亚人",
+        "name": "塞爾維亞人",
         "prompt": "Serbian"
     },
     {
-        "name": "塞舌尔人",
+        "name": "塞舌爾人",
         "prompt": "Seychellois"
     },
     {
@@ -632,19 +632,19 @@
         "prompt": "Singaporean"
     },
     {
-        "name": "斯洛伐克人",
+        "name": "斯洛伐喀人",
         "prompt": "Slovakian"
     },
     {
-        "name": "斯洛文尼亚人",
+        "name": "斯洛文尼亞人",
         "prompt": "Slovenian"
     },
     {
-        "name": "所罗门群岛人",
+        "name": "所羅門群島人",
         "prompt": "Solomon Islander"
     },
     {
-        "name": "索马里人",
+        "name": "索馬裡人",
         "prompt": "Somali"
     },
     {
@@ -652,11 +652,11 @@
         "prompt": "South African"
     },
     {
-        "name": "韩国人",
+        "name": "韓國人",
         "prompt": "South Korean"
     },
     {
-        "name": "南苏丹人",
+        "name": "南蘇丹人",
         "prompt": "South Sudanese"
     },
     {
@@ -664,19 +664,19 @@
         "prompt": "Spanish"
     },
     {
-        "name": "斯里兰卡人",
+        "name": "斯裡蘭卡人",
         "prompt": "Sri Lankan"
     },
     {
-        "name": "苏丹人",
+        "name": "蘇丹人",
         "prompt": "Sudanese"
     },
     {
-        "name": "苏里南人",
+        "name": "蘇裡南人",
         "prompt": "Surinamer"
     },
     {
-        "name": "斯威士兰人",
+        "name": "斯威士蘭人",
         "prompt": "Swazi"
     },
     {
@@ -688,31 +688,31 @@
         "prompt": "Swiss"
     },
     {
-        "name": "叙利亚人",
+        "name": "敘利亞人",
         "prompt": "Syrian"
     },
     {
-        "name": "塔吉克斯坦人",
+        "name": "塔吉喀斯坦人",
         "prompt": "Tajikistani"
     },
     {
-        "name": "坦桑尼亚人",
+        "name": "坦桑尼亞人",
         "prompt": "Tanzanian"
     },
     {
-        "name": "泰国人",
+        "name": "泰國人",
         "prompt": "Thai"
     },
     {
-        "name": "多哥人",
-        "prompt": "Togolese"
+        "name": "台灣人",
+        "prompt": "Taiwanese"
     },
     {
-        "name": "汤加人",
+        "name": "湯加人",
         "prompt": "Tongan"
     },
     {
-        "name": "特立尼达和多巴哥人",
+        "name": "特立尼達和多巴哥人",
         "prompt": "Trinidadian Tobagonian"
     },
     {
@@ -724,31 +724,31 @@
         "prompt": "Turkish"
     },
     {
-        "name": "土库曼人",
+        "name": "土庫曼人",
         "prompt": "Turkmen"
     },
     {
-        "name": "图瓦卢人",
+        "name": "圖瓦盧人",
         "prompt": "Tuvaluan"
     },
     {
-        "name": "乌干达人",
+        "name": "烏幹達人",
         "prompt": "Ugandan"
     },
     {
-        "name": "乌克兰人",
+        "name": "烏喀蘭人",
         "prompt": "Ukrainian"
     },
     {
-        "name": "乌拉圭人",
+        "name": "烏拉圭人",
         "prompt": "Uruguayan"
     },
     {
-        "name": "乌兹别克斯坦人",
+        "name": "烏茲別喀斯坦人",
         "prompt": "Uzbekistani"
     },
     {
-        "name": "委内瑞拉人",
+        "name": "委內瑞拉人",
         "prompt": "Venezuelan"
     },
     {
@@ -756,19 +756,19 @@
         "prompt": "Vietnamese"
     },
     {
-        "name": "威尔士人",
+        "name": "威爾士人",
         "prompt": "Welsh"
     },
     {
-        "name": "也门人",
+        "name": "葉門人",
         "prompt": "Yemeni"
     },
     {
-        "name": "赞比亚人",
+        "name": "贊比亞人",
         "prompt": "Zambian"
     },
     {
-        "name": "津巴布韦人",
+        "name": "津巴布韋人",
         "prompt": "Zimbabwean"
     }
 ]
