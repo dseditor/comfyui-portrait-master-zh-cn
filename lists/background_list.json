@@ -1,0 +1,78 @@
+[
+  {
+    "name": "自然風景",
+    "prompt": "Nature"
+  },
+  {
+    "name": "城市景觀",
+    "prompt": "Cityscape"
+  },
+  {
+    "name": "室內空間",
+    "prompt": "Indoor Space"
+  },
+  {
+    "name": "歷史遺跡",
+    "prompt": "Historical Site"
+  },
+  {
+    "name": "文化景點",
+    "prompt": "Cultural Landmark"
+  },
+  {
+    "name": "工業遺產",
+    "prompt": "Industrial Heritage"
+  },
+  {
+    "name": "藝術裝置",
+    "prompt": "Art Installation"
+  },
+  {
+    "name": "劇場舞台",
+    "prompt": "Theater Stage"
+  },
+  {
+    "name": "博物館展覽",
+    "prompt": "Museum Exhibit"
+  },
+  {
+    "name": "圖書館古籍",
+    "prompt": "Library with Antique Books"
+  },
+  {
+    "name": "咖啡廳雅座",
+    "prompt": "Cozy Cafe Corner"
+  },
+  {
+    "name": "街頭巷尾",
+    "prompt": "Streets and Alleys"
+  },
+  {
+    "name": "公園綠地",
+    "prompt": "Park or Green Space"
+  },
+  {
+    "name": "海灘海岸",
+    "prompt": "Beach or Coastline"
+  },
+  {
+    "name": "山林湖泊",
+    "prompt": "Mountains or Lakes"
+  },
+  {
+    "name": "星空夜景",
+    "prompt": "Night Sky with Stars"
+  },
+  {
+    "name": "日落夕陽",
+    "prompt": "Sunset"
+  },
+  {
+    "name": "日出朝陽",
+    "prompt": "Sunrise"
+  },
+  {
+    "name": "花海田園",
+    "prompt": "Flower Field or Countryside"
+  }
+]

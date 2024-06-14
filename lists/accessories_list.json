@@ -91,6 +91,18 @@
         "name": "髮夾",
         "prompt": "Hairclip"
     },
+	  {
+    "name": "天使光環",
+    "prompt": "Angel Halo"
+  },
+  {
+    "name": "惡魔角",
+    "prompt": "Devil Horns"
+  },
+  {
+    "name": "耳機",
+    "prompt": "Headphones"
+  },
     {
         "name": "髮髻",
         "prompt": "Hair Bun"
@@ -103,6 +115,138 @@
         "name": "髮鈴",
         "prompt": "Hair Bell"
     },
+	  {
+    "name": "棒球帽",
+    "prompt": "Baseball Cap"
+  },
+  {
+    "name": "漁夫帽",
+    "prompt": "Bucket Hat"
+  },
+  {
+    "name": "鴨舌帽",
+    "prompt": "Snapback Hat"
+  },
+  {
+    "name": "寬邊帽",
+    "prompt": "Wide Brim Hat"
+  },
+  {
+    "name": "禮帽",
+    "prompt": "Top Hat"
+  },
+  {
+    "name": "圓頂帽",
+    "prompt": "Fedora Hat"
+  },
+  {
+    "name": "牛仔帽",
+    "prompt": "Cowboy Hat"
+  },
+  {
+    "name": "報童帽",
+    "prompt": "Newsboy Hat"
+  },
+  {
+    "name": "貝雷帽",
+    "prompt": "Beret"
+  },
+  {
+    "name": "毛線帽",
+    "prompt": "Beanie"
+  },
+  {
+    "name": "飛行帽",
+    "prompt": "Aviator Hat"
+  },
+  {
+    "name": "滑雪帽",
+    "prompt": "Ski Hat"
+  },
+  {
+    "name": "泳帽",
+    "prompt": "Swim Cap"
+  },
+  {
+    "name": "浴帽",
+    "prompt": "Shower Cap"
+  },
+  {
+    "name": "廚師帽",
+    "prompt": "Chef's Hat"
+  },
+  {
+    "name": "巫師帽",
+    "prompt": "Wizard Hat"
+  },
+  {
+    "name": "派對帽",
+    "prompt": "Party Hat"
+  },
+  {
+    "name": "太陽帽",
+    "prompt": "Sun Hat"
+  },
+  {
+    "name": "草帽",
+    "prompt": "Straw Hat"
+  },
+  {
+    "name": "遮陽帽",
+    "prompt": "Visor Hat"
+  },
+  {
+    "name": "漁夫帽",
+    "prompt": "Bucket Hat"
+  },
+  {
+    "name": "報童帽",
+    "prompt": "Newsboy Hat"
+  },
+  {
+    "name": "貝雷帽",
+    "prompt": "Beret"
+  },
+  {
+    "name": "毛線帽",
+    "prompt": "Beanie"
+  },
+  {
+    "name": "飛行帽",
+    "prompt": "Aviator Hat"
+  },
+  {
+    "name": "滑雪帽",
+    "prompt": "Ski Hat"
+  },
+  {
+    "name": "泳帽",
+    "prompt": "Swim Cap"
+  },
+  {
+    "name": "浴帽",
+    "prompt": "Shower Cap"
+  },
+  {
+    "name": "廚師帽",
+    "prompt": "Chef's Hat"
+  },
+  {
+    "name": "巫師帽",
+    "prompt": "Wizard Hat"
+  },
+  {
+    "name": "派對帽",
+    "prompt": "Party Hat"
+  },
+  {
+    "name": "太陽帽",
+    "prompt": "Sun Hat"
+  },
+  {
+    "name": "草帽",
+    "prompt": "Straw Hat"
+  },
     {
         "name": "髮圈",
         "prompt": "Hair Rings"

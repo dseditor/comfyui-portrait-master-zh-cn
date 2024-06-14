@@ -1,0 +1,406 @@
+[
+  {
+    "name": "T恤",
+    "prompt": "T-shirt"
+  },
+  {
+    "name": "襯衫",
+    "prompt": "Shirt"
+  },
+  {
+    "name": "背心",
+    "prompt": "Tank Top"
+  },
+  {
+    "name": "針織衫",
+    "prompt": "Sweater"
+  },
+  {
+    "name": "帽衫",
+    "prompt": "Hoodie"
+  },
+  {
+    "name": "運動衫",
+    "prompt": "Sports Bra"
+  },
+  {
+    "name": "洋裝",
+    "prompt": "Dress"
+  },
+  {
+    "name": "連身褲",
+    "prompt": "Jumpsuit"
+  },
+  {
+    "name": "吊帶背心",
+    "prompt": "Camisole"
+  },
+  {
+    "name": "泡泡袖上衣",
+    "prompt": "Puff Sleeve Top"
+  },
+  {
+    "name": "露肩上衣",
+    "prompt": "Off-the-Shoulder Top"
+  },
+  {
+    "name": "一字領上衣",
+    "prompt": "Strapless Top"
+  },
+  {
+    "name": "高領上衣",
+    "prompt": "Turtleneck Top"
+  },
+  {
+    "name": "襯衫洋裝",
+    "prompt": "Shirt Dress"
+  },
+  {
+    "name": "背心洋裝",
+    "prompt": "Tank Top Dress"
+  },
+  {
+    "name": "運動風上衣",
+    "prompt": "Activewear Top"
+  },
+  {
+    "name": "度假風上衣",
+    "prompt": "Vacation Top"
+  },
+  {
+    "name": "正式場合上衣",
+    "prompt": "Formal Top"
+  },
+  {
+    "name": "休閒場合上衣",
+    "prompt": "Casual Top"
+  },
+   {
+    "name": "經典白T",
+    "prompt": "Basic White Tee"
+  },
+  {
+    "name": "條紋上衣",
+    "prompt": "Striped Shirt"
+  },
+  {
+    "name": "印花上衣",
+    "prompt": "Printed Top"
+  },
+  {
+    "name": "衛衣",
+    "prompt": "Hoodie"
+  },
+  {
+    "name": "由下到上的襯衫",
+    "prompt": "Button-Up Shirt"
+  },
+  {
+    "name": "背心",
+    "prompt": "Tank Top"
+  },
+  {
+    "name": "洋裝",
+    "prompt": "Dress"
+  },
+  {
+    "name": "連身褲",
+    "prompt": "Jumpsuit"
+  },
+  {
+    "name": "運動上衣",
+    "prompt": "Sports Bra"
+  },
+  {
+    "name": "睡衣",
+    "prompt": "Pajamas"
+  },
+  {
+    "name": "針織衫",
+    "prompt": "Sweater"
+  },
+  {
+    "name": "背心洋裝",
+    "prompt": "Sleeveless Dress"
+  },
+  {
+    "name": "細肩帶上衣",
+    "prompt": "Spaghetti Strap Top"
+  },
+  {
+    "name": "露肩上衣",
+    "prompt": "Off-the-Shoulder Top"
+  },
+  {
+    "name": "高領上衣",
+    "prompt": "Turtleneck Top"
+  },
+  {
+    "name": "泡泡袖上衣",
+    "prompt": "Puff Sleeve Top"
+  },
+  {
+    "name": "蕾絲上衣",
+    "prompt": "Lace Top"
+  },
+  {
+    "name": "透視上衣",
+    "prompt": "Sheer Top"
+  },
+    {
+    "name": "西裝外套",
+    "prompt": "Blazer"
+  },
+  {
+    "name": "皮革外套",
+    "prompt": "Leather Jacket"
+  },
+  {
+    "name": "羽絨衣",
+    "prompt": "Down Jacket"
+  },
+  {
+    "name": "泳衣",
+    "prompt": "Swimsuit"
+  },
+  {
+    "name": "T恤款內衣",
+    "prompt": "T-shirt Bra"
+  },
+  {
+    "name": "運動內衣",
+    "prompt": "Sports Bra"
+  },
+  {
+    "name": "蕾絲內衣",
+    "prompt": "Lace Bra"
+  },
+  {
+    "name": "無鋼圈內衣",
+    "prompt": "Wireless Bra"
+  },
+  {
+    "name": "聚攏內衣",
+    "prompt": "Push-up Bra"
+  },
+  {
+    "name": "半罩杯內衣",
+    "prompt": "Demi Bra"
+  },
+  {
+    "name": "全罩杯內衣",
+    "prompt": "Full-Coverage Bra"
+  },
+  {
+    "name": "Balconette內衣",
+    "prompt": "Balconette Bra"
+  },
+  {
+    "name": "無肩帶內衣",
+    "prompt": "Strapless Bra"
+  },
+  {
+    "name": "可拆卸肩帶內衣",
+    "prompt": "Convertible Strap Bra"
+  },
+  {
+    "name": "前扣內衣",
+    "prompt": "Front-Closure Bra"
+  },
+  {
+    "name": "背心式內衣",
+    "prompt": "Bralette"
+  },
+  {
+    "name": "無痕內衣",
+    "prompt": "Seamless Bra"
+  },
+  {
+    "name": "塑形內衣",
+    "prompt": "Shapewear Bra"
+  },
+  {
+    "name": "情趣內衣",
+    "prompt": "Lingerie Bra"
+  },
+  {
+    "name": "睡衣內衣",
+    "prompt": "Sleep Bra"
+  },
+  {
+    "name": "運動型內衣",
+    "prompt": "Sports Bra"
+  },
+  {
+    "name": "比基尼內衣",
+    "prompt": "Bikini Top"
+  },
+    {
+    "name": "馬甲式內衣",
+    "prompt": "Tankini Top"
+  },
+  {
+    "name": "緊身衣",
+    "prompt": "Bodysuit"
+  },
+    {
+    "name": "和服",
+    "prompt": "Kimono"
+  },
+  {
+    "name": "浴衣",
+    "prompt": "Yukata"
+  },
+  {
+    "name": "袴",
+    "prompt": "Hakama"
+  },  
+    {
+    "name": "水手服",
+    "prompt": "Sailor Suit"
+  },
+  {
+    "name": "西式制服",
+    "prompt": "Western-Style Uniform"
+  },
+  {
+    "name": "中式制服",
+    "prompt": "Chinese-Style Uniform"
+  },
+  {
+    "name": "運動服",
+    "prompt": "Gym Uniform"
+  },
+  {
+    "name": "旗袍",
+    "prompt": "Cheongsam"
+  },
+  {
+    "name": "韓服",
+    "prompt": "Hanbok"
+  },
+  {
+    "name": "和服",
+    "prompt": "Kimono"
+  },
+  {
+    "name": "喀爾喀特裙",
+    "prompt": "Kilt"
+  },
+  {
+    "name": "紗麗",
+    "prompt": "Sari"
+  },
+  {
+    "name": "托加",
+    "prompt": "Toga"
+  },
+  {
+    "name": "長袍",
+    "prompt": "Cassock"
+  },
+  {
+    "name": "道袍",
+    "prompt": "Daoist Robe"
+  },
+  {
+    "name": "僧侶服",
+    "prompt": "Monk's Robe"
+  },
+  {
+    "name": "修女服",
+    "prompt": "Nun's Habit"
+  },
+  {
+    "name": "校服",
+    "prompt": "School Uniform"
+  },
+  {
+    "name": "學院風制服",
+    "prompt": "Preppy Uniform"
+  },
+  {
+    "name": "水手服改良式",
+    "prompt": "Modified Sailor Suit"
+  },
+  {
+    "name": "運動休閒式制服",
+    "prompt": "Athleisure-Style Uniform"
+  },
+  {
+    "name": "混搭式制服",
+    "prompt": "Mixed-Style Uniform"
+  },
+    {
+    "name": "魚尾裙禮服",
+    "prompt": "Mermaid Dress"
+  },
+  {
+    "name": "公主裙禮服",
+    "prompt": "Ball Gown Dress"
+  },
+  {
+    "name": "合身裙禮服",
+    "prompt": "Sheath Dress"
+  },
+  {
+    "name": "雞尾酒裙禮服",
+    "prompt": "Cocktail Dress"
+  },
+  {
+    "name": "帝國腰線禮服",
+    "prompt": "Empire Waist Dress"
+  },
+  {
+    "name": "高低裙禮服",
+    "prompt": "High-Low Dress"
+  },
+  {
+    "name": "不對稱裙禮服",
+    "prompt": "Asymmetrical Dress"
+  },
+  {
+    "name": "裹身裙禮服",
+    "prompt": "Wrap Dress"
+  },
+  {
+    "name": "吊帶裙禮服",
+    "prompt": "Slit Dress"
+  },
+  {
+    "name": "露肩裙禮服",
+    "prompt": "Off-the-Shoulder Dress"
+  },
+  {
+    "name": "一字領裙禮服",
+    "prompt": "Strapless Dress"
+  },
+  {
+    "name": "泡泡袖裙禮服",
+    "prompt": "Puff Sleeve Dress"
+    },
+  {
+    "name": "荷葉邊裙禮服",
+    "prompt": "Ruffle Dress"
+  },
+  {
+    "name": "蕾絲裙禮服",
+    "prompt": "Lace Dress"
+  },
+  {
+    "name":"緞面裙禮服",
+    "prompt": "Satin Dress"
+  },
+  {
+    "name": "雪紡裙禮服",
+    "prompt": "Chiffon Dress"
+  },
+  {
+    "name": "絲綢裙禮服",
+    "prompt": "Silk Dress"
+  },
+  {
+    "name": "陣羽織",
+    "prompt": "Jinbaori"
+  }
+]
