@@ -86,6 +86,9 @@ class PortraitMaster_中文版:
         #v2.2
         body_type_file_path = os.path.join(p, 'lists/body_type_list.json')
         beard_file_path = os.path.join(p, 'lists/beard_list.json')
+        accessories_file_path = os.path.join(p, 'lists/accessories_list.json')
+        glasses_file_path = os.path.join(p, 'lists/glasses_list.json')
+        earring_file_path = os.path.join(p, 'lists/earring_list.json')
         model_pose_file_path = os.path.join(p, 'lists/model_pose_list.json')
 
         # Read JSON from file
@@ -102,6 +105,9 @@ class PortraitMaster_中文版:
         #V2.2
         self.body_type_data = read_json_file(body_type_file_path)
         self.beard_data = read_json_file(beard_file_path)
+        self.accessories_data = read_json_file(accessories_file_path)
+        self.glasses_data = read_json_file(glasses_file_path)
+        self.earring_data = read_json_file(earring_file_path)
         self.model_pose_data = read_json_file(model_pose_file_path)
 
         # Retrieve name from JSON data
@@ -130,6 +136,12 @@ class PortraitMaster_中文版:
         body_type_list = ['-'] + body_type_list
         beard_list = get_name(self.beard_data)
         beard_list = ['-'] + beard_list
+        accessories_list = get_name(self.accessories_data)
+        accessories_list = ['-'] + accessories_list
+        glasses_list = get_name(self.glasses_data)
+        glasses_list = ['-'] + glasses_list
+        earring_list = get_name(self.earring_data)
+        earring_list = ['-'] + earring_list
         model_pose_list = get_name(self.model_pose_data)
         model_pose_list = ['-'] + model_pose_list
         
@@ -153,7 +165,7 @@ class PortraitMaster_中文版:
                 }),
                 "年齡": ("INT", {
                     "default": 20,
-                    "min": 18,
+                    "min": 8,
                     "max": 90,
                     "step": 1,
                     "display": "slider",
@@ -229,6 +241,15 @@ class PortraitMaster_中文版:
                 }),
                 "鬍子": (beard_list, {
                     "default": beard_list[0],
+                }),
+				"配件": (accessories_list, {
+                    "default": accessories_list[0],
+                }),
+                "眼鏡": (glasses_list, {
+                    "default": glasses_list[0],  
+                }),
+                "耳環": (earring_list, {
+                    "default": earring_list[0],                        
                 }),
                 "皮膚細節": ("FLOAT", {
                     "default": 0.5,
@@ -333,8 +354,8 @@ class PortraitMaster_中文版:
                     "max": max_float_value,
                     "step": 0.05,
                     "display": "slider",
-                }),
-                "提高照片真實感": (["enable", "disable"],),
+                }),                    
+                "提高照片真實感": (["enable", "disable"],),                
                 "起始提示詞": ("STRING", {
                     "multiline": True,
                     "default": "raw photo, (realistic:1.5)"
@@ -359,7 +380,7 @@ class PortraitMaster_中文版:
     FUNCTION = "pm"
     CATEGORY = "📸肖像大師"
 
-    def pm(self, 鏡頭類型="-", 鏡頭權重=1, 性別="-", 體型="-", 體型權重=0, 眼睛顏色="-", 面部表情="-", 面部表情權重=0, 臉型="-", 臉型權重=0, 國籍_1="-", 國籍_2="-", 國籍混合=0.5, 年齡=20, 髮型="-", 頭髮顏色="-", 頭髮蓬鬆度=0, 酒窩=0, 雀斑=0, 皮膚毛孔=0, 皮膚細節=0, 痣=0, 皮膚瑕疵=0, 皺紋=0, 小麥色膚色=0,  眼睛細節=1, 虹膜細節=1, 圓形虹膜=1, 圓形瞳孔=1, 面部對稱性=0, 補充提示詞="", 起始提示詞="", 結束提示詞="", 燈光類型="-", 燈光方向="-", 燈光權重=0, 負面提示詞="", 提高照片真實感="disable", 胡子="-", 姿勢="-", 痘痘=0):
+    def pm(self, 鏡頭類型="-", 鏡頭權重=1, 性別="-", 體型="-", 體型權重=0, 眼睛顏色="-", 面部表情="-", 面部表情權重=0, 臉型="-", 臉型權重=0, 國籍_1="-", 國籍_2="-", 國籍混合=0.5, 年齡=20, 髮型="-", 頭髮顏色="-", 頭髮蓬鬆度=0, 酒窩=0, 雀斑=0, 皮膚毛孔=0, 皮膚細節=0, 痣=0, 皮膚瑕疵=0, 皺紋=0, 小麥色膚色=0,  眼睛細節=1, 虹膜細節=1, 圓形虹膜=1, 圓形瞳孔=1, 面部對稱性=0, 補充提示詞="", 起始提示詞="", 結束提示詞="", 燈光類型="-", 燈光方向="-", 燈光權重=0, 負面提示詞="", 提高照片真實感="disable", 鬍子="-", 配件="-", 眼鏡="-", 姿勢="-", 耳環="-", 痘痘=0):
 
         shot = get_prompt(self.shot_data, 鏡頭類型)
         gender = get_prompt(self.gender_data, 性別)
@@ -374,7 +395,10 @@ class PortraitMaster_中文版:
         light_direction = get_prompt(self.light_direction_data, 燈光方向)
         #V2.2
         body_type = get_prompt(self.body_type_data, 體型)
-        beard = get_prompt(self.beard_data, 胡子)
+        beard = get_prompt(self.beard_data, 鬍子)
+        accessories = get_prompt(self.accessories_data, 配件)
+        glasses = get_prompt(self.glasses_data, 眼鏡)
+        earring = get_prompt(self.earring_data, 耳環)
         model_pose = get_prompt(self.model_pose_data, 姿勢)
 
         prompt = []
@@ -422,9 +446,15 @@ class PortraitMaster_中文版:
         if 頭髮顏色 != "-":
             prompt.append(f"({hair_color} hair:1.25)")
 
-        if 胡子 != "-":
+        if 鬍子 != "-":
             prompt.append(f"({beard}:1.15)")
-        
+
+        if 眼鏡 != "-":
+            prompt.append(f"({glasses}:1.11)")
+
+        if 配件 != "-":
+            prompt.append(f"({accessories}:1.12)")
+                 			   
         if 頭髮蓬鬆度 != "-":
             prompt.append(f"(disheveled:{round(頭髮蓬鬆度, 2)})")
 
@@ -472,6 +502,9 @@ class PortraitMaster_中文版:
 
         if 面部對稱性 > 0:
             prompt.append(f"(facial asymmetry, face asymmetry:{round(面部對稱性, 2)})")
+
+        if 耳環 != "-":
+            prompt.append(f"({earring}:1.11)")
 
         if 燈光類型 != '-' and 燈光權重 > 0:
             if 燈光方向 != '-':
