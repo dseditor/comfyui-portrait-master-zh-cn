@@ -89,6 +89,8 @@ class PortraitMaster_中文版:
         accessories_file_path = os.path.join(p, 'lists/accessories_list.json')
         glasses_file_path = os.path.join(p, 'lists/glasses_list.json')
         earring_file_path = os.path.join(p, 'lists/earring_list.json')
+        background_file_path = os.path.join(p, 'lists/background_list.json')
+        topdress_file_path = os.path.join(p, 'lists/topdress_list.json')
         model_pose_file_path = os.path.join(p, 'lists/model_pose_list.json')
 
         # Read JSON from file
@@ -108,6 +110,8 @@ class PortraitMaster_中文版:
         self.accessories_data = read_json_file(accessories_file_path)
         self.glasses_data = read_json_file(glasses_file_path)
         self.earring_data = read_json_file(earring_file_path)
+        self.background_data = read_json_file(background_file_path)        
+        self.topdress_data = read_json_file(topdress_file_path)
         self.model_pose_data = read_json_file(model_pose_file_path)
 
         # Retrieve name from JSON data
@@ -142,6 +146,10 @@ class PortraitMaster_中文版:
         glasses_list = ['-'] + glasses_list
         earring_list = get_name(self.earring_data)
         earring_list = ['-'] + earring_list
+        background_list = get_name(self.background_data)
+        background_list = ['-'] + background_list        
+        topdress_list = get_name(self.topdress_data)
+        topdress_list = ['-'] + topdress_list
         model_pose_list = get_name(self.model_pose_data)
         model_pose_list = ['-'] + model_pose_list
         
@@ -249,7 +257,13 @@ class PortraitMaster_中文版:
                     "default": glasses_list[0],  
                 }),
                 "耳環": (earring_list, {
-                    "default": earring_list[0],                        
+                    "default": earring_list[0],  
+                }),
+                "背景": (background_list, {
+                    "default": background_list[0],                      
+                }),
+                "上衣": (topdress_list, {
+                    "default": topdress_list[0],                     
                 }),
                 "皮膚細節": ("FLOAT", {
                     "default": 0.5,
@@ -380,7 +394,7 @@ class PortraitMaster_中文版:
     FUNCTION = "pm"
     CATEGORY = "📸肖像大師"
 
-    def pm(self, 鏡頭類型="-", 鏡頭權重=1, 性別="-", 體型="-", 體型權重=0, 眼睛顏色="-", 面部表情="-", 面部表情權重=0, 臉型="-", 臉型權重=0, 國籍_1="-", 國籍_2="-", 國籍混合=0.5, 年齡=20, 髮型="-", 頭髮顏色="-", 頭髮蓬鬆度=0, 酒窩=0, 雀斑=0, 皮膚毛孔=0, 皮膚細節=0, 痣=0, 皮膚瑕疵=0, 皺紋=0, 小麥色膚色=0,  眼睛細節=1, 虹膜細節=1, 圓形虹膜=1, 圓形瞳孔=1, 面部對稱性=0, 補充提示詞="", 起始提示詞="", 結束提示詞="", 燈光類型="-", 燈光方向="-", 燈光權重=0, 負面提示詞="", 提高照片真實感="disable", 鬍子="-", 配件="-", 眼鏡="-", 姿勢="-", 耳環="-", 痘痘=0):
+    def pm(self, 鏡頭類型="-", 鏡頭權重=1, 性別="-", 體型="-", 體型權重=0, 眼睛顏色="-", 面部表情="-", 面部表情權重=0, 臉型="-", 臉型權重=0, 國籍_1="-", 國籍_2="-", 國籍混合=0.5, 年齡=20, 髮型="-", 頭髮顏色="-", 頭髮蓬鬆度=0, 酒窩=0, 雀斑=0, 皮膚毛孔=0, 皮膚細節=0, 痣=0, 皮膚瑕疵=0, 皺紋=0, 小麥色膚色=0,  眼睛細節=1, 虹膜細節=1, 圓形虹膜=1, 圓形瞳孔=1, 面部對稱性=0, 補充提示詞="", 起始提示詞="", 結束提示詞="", 燈光類型="-", 燈光方向="-", 燈光權重=0, 負面提示詞="", 提高照片真實感="disable", 鬍子="-", 配件="-", 眼鏡="-", 背景="-", 姿勢="-", 上衣="-", 耳環="-", 痘痘=0):
 
         shot = get_prompt(self.shot_data, 鏡頭類型)
         gender = get_prompt(self.gender_data, 性別)
@@ -399,6 +413,8 @@ class PortraitMaster_中文版:
         accessories = get_prompt(self.accessories_data, 配件)
         glasses = get_prompt(self.glasses_data, 眼鏡)
         earring = get_prompt(self.earring_data, 耳環)
+        background = get_prompt(self.background_data, 背景)
+        topdress = get_prompt(self.topdress_data, 上衣)
         model_pose = get_prompt(self.model_pose_data, 姿勢)
 
         prompt = []
@@ -505,6 +521,12 @@ class PortraitMaster_中文版:
 
         if 耳環 != "-":
             prompt.append(f"({earring}:1.11)")
+
+        if 背景 != "-":
+            prompt.append(f"({background}:1.11)")
+
+        if 上衣 != "-":
+            prompt.append(f"({topdress}:1.11)")
 
         if 燈光類型 != '-' and 燈光權重 > 0:
             if 燈光方向 != '-':
