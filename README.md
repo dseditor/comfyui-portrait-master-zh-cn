@@ -9,9 +9,9 @@
 
 - 優化 + 漢化 自 [ComfyUI Portrait Master](https://github.com/florestefano1975/comfyui-portrait-master.git)
 
-- 版本：基於ZHO V2.2版本的Fork、繁體中文化及內容增補，並將說明繁體中文化，保留ZHO原作說明內容，其他說明待後續增補
+- 版本：基於ZHO V2.2版本的Fork、繁體中文化及內容增補，並將說明繁體中文化，保留部分ZHO原作說明內容，其他說明待後續增補，此版可與簡體中文版並存，但需手動安裝
 
-- 版本說明：版本越高內容越多，但隨著提示詞逐漸增多，每項參數的最終效果可能會被削弱，目前在SD3的效果較SDXL佳，而1.5表現不好，僅能顯示少數提詞效果
+- 版本說明：版本越高內容越多，但隨著提示詞逐漸增多，每項參數的最終效果可能會被削弱，目前在SD3的效果較SDXL佳，而1.5表現不好，僅能顯示少數提詞效果，範例工作流中，SDXL和SD3與PromptStyler及Builder混合可實現多種衣服與風格效果， 原始的英文版本2.9有Style與隨機的選擇，繁體中文版維持ZHO架構，Style可靠PromptStyler實現，另本版上衣超過100種，建議使用關鍵字查詢衣服種類(如禮服、內衣、制服、泳衣、和服等)
 
 ## 參數說明 | Parameters
 
@@ -80,9 +80,9 @@
 - 結束提示詞
 - 提高照片真實感 
 
-## 姿勢庫 | Model Pose Library
+## 姿勢庫(原作者ZHO說明) | Model Pose Library
 
-特別提醒：由於肖像大師的本質是提示詞，因此想要通過純提示詞實現姿勢的穩定生成需要大量抽卡才能實現，這是我測試抽卡了一下午精選的結果，所以建議配合 openpose 實現姿勢的精確控製，別為難自己！
+特別提醒：由於肖像大師的本質是提示詞，因此想要通過純提示詞實現姿勢的穩定生成需要大量抽卡才能實現，這是我測試抽卡了一下午精選的結果，所以建議配合 openpose 實現姿勢的精確控制，別為難自己！
 
 ![poselist_](https://github.com/ZHO-ZHO-ZHO/comfyui-portrait-master-zh-cn/assets/140084057/0eac37da-6aee-4591-9755-19e3b317724c)
 
@@ -97,7 +97,7 @@
   
 - 皮膚和眼睛細節等參數過高時可能會覆蓋所選鏡頭的設置。在這種情況下，建議減小皮膚和眼睛的參數值，或者插入否定提示(closeup, close up, close-up:1.5)，並根據需要修改權重。
 
-- 要實現完美的姿勢控製，請配合 ControlNet 使用，同時將鏡頭類型設置為空（-）
+- 要實現完美的姿勢控制，請配合 ControlNet 使用，同時將鏡頭類型設置為空（-）
 
 ## 安裝 | Install
 
@@ -118,7 +118,7 @@
 ![image](https://github.com/dseditor/ComfyuiWorkflows/blob/main/manual/SD15.png)
 
 
-## 更新日誌 | Changelog
+## 更新日誌(簡體中文版) | Changelog
 
 20231221
 
