@@ -5,6 +5,7 @@
 # https://ai-wiz.art
 
 # 漢化 + 優化為讀取json文件：Zho
+# 繁體中文：dseditor
 # 版本：2.2
 
 import json
@@ -62,7 +63,7 @@ def get_prompt(json_data, template_name):
         print(f"An error occurred: {str(e)}")
 
 
-class PortraitMaster_中文版:
+class PortraitMaster_繁體中文版:
 
     def __init__(self):
         pass
@@ -557,9 +558,9 @@ class PortraitMaster_中文版:
 
 
 NODE_CLASS_MAPPINGS = {
-    "PortraitMaster_中文版": PortraitMaster_中文版
+    "PortraitMaster_繁體中文版": PortraitMaster_繁體中文版
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "PortraitMaster_中文版": "📸 肖像大師_中文版_2.2"
+    "PortraitMaster_繁體中文版": "📸 肖像大師_繁體中文版_2.2"
 }
