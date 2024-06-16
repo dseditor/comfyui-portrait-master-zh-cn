@@ -1,0 +1,770 @@
+{
+  "last_node_id": 23,
+  "last_link_id": 46,
+  "nodes": [
+    {
+      "id": 8,
+      "type": "CLIPTextEncode",
+      "pos": [
+        870,
+        70
+      ],
+      "size": {
+        "0": 290,
+        "1": 60
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 40
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 35,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            26
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 14,
+      "type": "VAEDecode",
+      "pos": [
+        1230,
+        450
+      ],
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 36
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 43
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            30
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      }
+    },
+    {
+      "id": 16,
+      "type": "PromptBuilder //Inspire",
+      "pos": [
+        880,
+        690
+      ],
+      "size": {
+        "0": 260,
+        "1": 160
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            31
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PromptBuilder //Inspire"
+      },
+      "widgets_values": [
+        "Artists",
+        "#PRESET",
+        ""
+      ]
+    },
+    {
+      "id": 15,
+      "type": "PreviewImage",
+      "pos": [
+        -650,
+        -310
+      ],
+      "size": {
+        "0": 1040,
+        "1": 1050
+      },
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 30
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 7,
+      "type": "CLIPTextEncode",
+      "pos": [
+        870,
+        -90
+      ],
+      "size": {
+        "0": 290,
+        "1": 60
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 38
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 34,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            25
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 22,
+      "type": "VAELoader",
+      "pos": [
+        1200,
+        -150
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            43
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAELoader"
+      },
+      "widgets_values": [
+        "vae-ft-mse-840000-ema-pruned.safetensors"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "CLIPSetLastLayer",
+      "pos": [
+        1190,
+        -270
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 39
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            38,
+            40
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPSetLastLayer"
+      },
+      "widgets_values": [
+        -2
+      ]
+    },
+    {
+      "id": 19,
+      "type": "EmptyLatentImage",
+      "pos": [
+        870,
+        210
+      ],
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            37
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyLatentImage"
+      },
+      "widgets_values": [
+        1024,
+        1024,
+        1
+      ]
+    },
+    {
+      "id": 23,
+      "type": "PatchModelAddDownscale",
+      "pos": [
+        1190,
+        540
+      ],
+      "size": {
+        "0": 315,
+        "1": 202
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 45
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            46
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PatchModelAddDownscale"
+      },
+      "widgets_values": [
+        3,
+        2,
+        0,
+        0.35,
+        true,
+        "bicubic",
+        "bicubic"
+      ]
+    },
+    {
+      "id": 13,
+      "type": "KSampler //Inspire",
+      "pos": [
+        1190,
+        -40
+      ],
+      "size": {
+        "0": 315,
+        "1": 382
+      },
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 46
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 25
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 26
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 37
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            36
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler //Inspire"
+      },
+      "widgets_values": [
+        77232342026439,
+        "randomize",
+        35,
+        7,
+        "dpmpp_2m_sde",
+        "AYS SD1",
+        1,
+        "GPU(=A1111)",
+        "incremental",
+        3,
+        0,
+        "linear"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "CheckpointLoaderSimple",
+      "pos": [
+        870,
+        -290
+      ],
+      "size": {
+        "0": 290,
+        "1": 100
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            45
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            39
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [],
+          "shape": 3,
+          "slot_index": 2
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CheckpointLoaderSimple"
+      },
+      "widgets_values": [
+        "magmix_v10.safetensors"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "SDXLPromptStyler",
+      "pos": [
+        890,
+        380
+      ],
+      "size": {
+        "0": 240,
+        "1": 240
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text_positive",
+          "type": "STRING",
+          "link": 31,
+          "widget": {
+            "name": "text_positive"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text_positive",
+          "type": "STRING",
+          "links": [
+            32
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "text_negative",
+          "type": "STRING",
+          "links": [
+            33
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SDXLPromptStyler"
+      },
+      "widgets_values": [
+        "",
+        "3d, Drawings, abstract art, cartoons, surrealist painting, conceptual drawing, graphics, (low resolution:1.3), (worst quality:1.3), (low quality:1.3), collage, (watermark:1.3), letter, nude,",
+        "base",
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": 18,
+      "type": "PortraitMaster_繁體中文版",
+      "pos": [
+        420,
+        -310
+      ],
+      "size": [
+        430,
+        1220
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "補充提示詞",
+          "type": "STRING",
+          "link": 32,
+          "widget": {
+            "name": "補充提示詞"
+          }
+        },
+        {
+          "name": "負面提示詞",
+          "type": "STRING",
+          "link": 33,
+          "widget": {
+            "name": "負面提示詞"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "positive",
+          "type": "STRING",
+          "links": [
+            34
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "negative",
+          "type": "STRING",
+          "links": [
+            35
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PortraitMaster_繁體中文版"
+      },
+      "widgets_values": [
+        "半身像",
+        0.49,
+        "女孩",
+        16,
+        "台灣人",
+        "-",
+        0,
+        "瘦",
+        0.66,
+        "-",
+        "-",
+        "開心",
+        0.66,
+        "心形",
+        1,
+        0,
+        "質感剪裁",
+        "黑色",
+        1,
+        "-",
+        "-",
+        "圓形眼鏡",
+        "耳釘",
+        "-",
+        "露肩上衣",
+        1.29,
+        0.6,
+        0,
+        0,
+        0,
+        0,
+        1.1400000000000001,
+        0,
+        0,
+        0.75,
+        0,
+        0,
+        0,
+        "黃昏色彩",
+        "-",
+        1.2,
+        "enable",
+        "(realistic:1.3) , finely detailed, quality, (masterpiece:1.2) , (photorealistic:1.2) , (best quality)  , (intricate details) , ray tracing, dramatic, (film grain:1.2),(cute Ethereal Female),",
+        "(white background:1.5)",
+        "",
+        ""
+      ]
+    }
+  ],
+  "links": [
+    [
+      25,
+      7,
+      0,
+      13,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      26,
+      8,
+      0,
+      13,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      30,
+      14,
+      0,
+      15,
+      0,
+      "IMAGE"
+    ],
+    [
+      31,
+      16,
+      0,
+      9,
+      0,
+      "STRING"
+    ],
+    [
+      32,
+      9,
+      0,
+      18,
+      0,
+      "STRING"
+    ],
+    [
+      33,
+      9,
+      1,
+      18,
+      1,
+      "STRING"
+    ],
+    [
+      34,
+      18,
+      0,
+      7,
+      1,
+      "STRING"
+    ],
+    [
+      35,
+      18,
+      1,
+      8,
+      1,
+      "STRING"
+    ],
+    [
+      36,
+      13,
+      0,
+      14,
+      0,
+      "LATENT"
+    ],
+    [
+      37,
+      19,
+      0,
+      13,
+      3,
+      "LATENT"
+    ],
+    [
+      38,
+      20,
+      0,
+      7,
+      0,
+      "CLIP"
+    ],
+    [
+      39,
+      5,
+      1,
+      20,
+      0,
+      "CLIP"
+    ],
+    [
+      40,
+      20,
+      0,
+      8,
+      0,
+      "CLIP"
+    ],
+    [
+      43,
+      22,
+      0,
+      14,
+      1,
+      "VAE"
+    ],
+    [
+      45,
+      5,
+      0,
+      23,
+      0,
+      "MODEL"
+    ],
+    [
+      46,
+      23,
+      0,
+      13,
+      0,
+      "MODEL"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.9646149645000006,
+      "offset": [
+        625.9547982809713,
+        137.49355754563584
+      ]
+    }
+  },
+  "version": 0.4
+}
