@@ -1,10 +1,18 @@
 [
     {
-        "name": "男性",
-        "prompt": "Man"
+        "name": "男孩",
+        "prompt": "Boy"
     },
     {
-        "name": "女性",
+        "name": "女孩",
+        "prompt": "Girl"
+    },
+	   {
+        "name": "男人",
+        "prompt": "Man"
+    },
+	  {
+        "name": "女人",
         "prompt": "Woman"
     }
 ]
