@@ -1,6 +1,6 @@
 # ComfyUI Portrait Master 繁體中文版
 
-https://github.com/dseditor/comfyui-portrait-master-zh-tw/blob/main/screenshot/TCSD3.png
+![image](https://github.com/dseditor/comfyui-portrait-master-zh-tw/blob/main/screenshot/TCSD3.png)
 
 
 ## 項目介紹 | Info
