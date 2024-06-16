@@ -1,7 +1,6 @@
 # ComfyUI Portrait Master 繁體中文版
 
-
-![Dingtalk_20231221171244](https://github.com/ZHO-ZHO-ZHO/comfyui-portrait-master-zh-cn/assets/140084057/f14a31f6-56f0-4e3e-9bf0-5a7a209175bd)
+https://github.com/dseditor/comfyui-portrait-master-zh-tw/blob/main/screenshot/TCSD3.png
 
 
 ## 項目介紹 | Info
