@@ -236,7 +236,7 @@
         "Node name for S&R": "KSampler //Inspire"
       },
       "widgets_values": [
-        339577303600861,
+        478955208391324,
         "randomize",
         28,
         4,
@@ -351,6 +351,110 @@
       ]
     },
     {
+      "id": 18,
+      "type": "PortraitMaster_繁體中文版",
+      "pos": [
+        420,
+        -310
+      ],
+      "size": {
+        "0": 400,
+        "1": 1250
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "補充提示詞",
+          "type": "STRING",
+          "link": 32,
+          "widget": {
+            "name": "補充提示詞"
+          }
+        },
+        {
+          "name": "負面提示詞",
+          "type": "STRING",
+          "link": 33,
+          "widget": {
+            "name": "負面提示詞"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "positive",
+          "type": "STRING",
+          "links": [
+            34
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "negative",
+          "type": "STRING",
+          "links": [
+            35
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PortraitMaster_繁體中文版"
+      },
+      "widgets_values": [
+        "半身像",
+        1.5,
+        "女孩",
+        20,
+        "台灣人",
+        "-",
+        0.5,
+        "瘦",
+        0,
+        "特寫美容拍攝姿勢",
+        "蓝色",
+        "開心",
+        0.66,
+        "心形",
+        1,
+        0.2,
+        "底層剪裁",
+        "黑色",
+        1,
+        "-",
+        "皮革髮帶",
+        "圓形眼鏡",
+        "蝶形耳環",
+        "城市景觀",
+        "度假風上衣",
+        0.5,
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1.2,
+        1.2,
+        0.84,
+        0.74,
+        "黃昏色彩",
+        "從前方",
+        1.2,
+        "enable",
+        "raw photo, (realistic:1.5)",
+        "(white background:1.5)",
+        "",
+        ""
+      ]
+    },
+    {
       "id": 9,
       "type": "SDXLPromptStyler",
       "pos": [
@@ -400,114 +504,10 @@
       "widgets_values": [
         "",
         "",
-        "artstyle-art deco",
+        "sai-photographic",
         true,
         true,
         true
-      ]
-    },
-    {
-      "id": 18,
-      "type": "PortraitMaster_繁體中文版",
-      "pos": [
-        420,
-        -310
-      ],
-      "size": [
-        400,
-        1250
-      ],
-      "flags": {},
-      "order": 4,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "補充提示詞",
-          "type": "STRING",
-          "link": 32,
-          "widget": {
-            "name": "補充提示詞"
-          }
-        },
-        {
-          "name": "負面提示詞",
-          "type": "STRING",
-          "link": 33,
-          "widget": {
-            "name": "負面提示詞"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "positive",
-          "type": "STRING",
-          "links": [
-            34
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "negative",
-          "type": "STRING",
-          "links": [
-            35
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "PortraitMaster_繁體中文版"
-      },
-      "widgets_values": [
-        "半身像",
-        1.5,
-        "女性",
-        20,
-        "台灣人",
-        "-",
-        0.5,
-        "瘦",
-        0,
-        "特寫美容拍攝姿勢",
-        "蓝色",
-        "開心",
-        0.66,
-        "心形",
-        1,
-        0.2,
-        "底層剪裁",
-        "黑色",
-        1,
-        "-",
-        "皮革髮帶",
-        "圓形眼鏡",
-        "蝶形耳環",
-        "城市景觀",
-        "度假風上衣",
-        0.5,
-        0.3,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1.2,
-        1.2,
-        0.84,
-        0.74,
-        "黃昏色彩",
-        "從前方",
-        1.2,
-        "enable",
-        "raw photo, (realistic:1.5)",
-        "(white background:1.5)",
-        "",
-        ""
       ]
     }
   ],
@@ -629,10 +629,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.8769226950000014,
+      "scale": 0.7247295000000011,
       "offset": [
-        478.30604676058874,
-        141.53180968771983
+        564.622242761213,
+        276.99996947514336
       ]
     }
   },
