@@ -11,7 +11,7 @@
 
 - 版本：基於ZHO V2.2版本的Fork、繁體中文化及內容增補，並將說明繁體中文化，保留ZHO原作說明內容，其他說明待後續增補
 
-- 版本說明：版本越高內容越多，但隨著提示詞逐漸增多，每項參數的最終效果可能會被削弱，因此並非版本越高越好用，請選擇適合自己的版本
+- 版本說明：版本越高內容越多，但隨著提示詞逐漸增多，每項參數的最終效果可能會被削弱，目前在SD3的效果較SDXL佳，而1.5表現不好，僅能顯示少數提詞效果
 
 ## 參數說明 | Parameters
 
@@ -156,16 +156,7 @@
 - 對 [ComfyUI Portrait Master](https://github.com/florestefano1975/comfyui-portrait-master.git) 完成漢化
 
 
-## Stars 
-
-[![Star History Chart](https://api.star-history.com/svg?repos=ZHO-ZHO-ZHO/comfyui-portrait-master-zh-cn&type=Date)](https://star-history.com/#ZHO-ZHO-ZHO/comfyui-portrait-master-zh-cn&Date)
-
-<!---
-[![Star History Chart](https://api.star-history.com/svg?repos=ZHO-ZHO-ZHO/comfyui-portrait-master-zh-cn&type=Timeline)](https://star-history.com/#ZHO-ZHO-ZHO/comfyui-portrait-master-zh-cn&Timeline)
---->
-
-
-## 關於我 | About me
+## (原作者ZHO) 關於我 | About me 
 
 📬 **聯繫我**：
 - 郵箱：zhozho3965@gmail.com
